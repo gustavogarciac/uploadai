@@ -51,8 +51,15 @@ const App = () => {
           <Separator orientation="vertical" className="h-6" />
 
           <Button variant={"ghost"}>
-            <Github className="w-4 h-4 mr-2" />
-            Github
+            <a
+              href="https://github.com/gustavogarciac"
+              className="flex items-center"
+              target="_blank"
+              rel="external"
+            >
+              <Github className="w-4 h-4 mr-2" />
+              Github
+            </a>
           </Button>
         </div>
       </header>
